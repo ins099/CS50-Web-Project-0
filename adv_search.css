@@ -1,0 +1,78 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, sans-serif;
+}
+
+h3 {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  color: rgb(217, 48, 37);
+  font-weight: 400;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 21px;
+  padding: 20px 0 20px 45px;
+  font-family: Roboto;
+}
+
+.navbar {
+  background-color: rgb(235, 235, 235);
+  height: 40px;
+}
+
+.textBox {
+  height: 22px;
+  border: 1px solid rgb(192, 192, 192);
+  padding: 1px 11px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.textBox:focus {
+  outline: 1px solid rgb(77, 144, 254);
+  outline-offset: 0px;
+}
+
+span {
+  font-size: 16px;
+  font-family: "Lucida Sans";
+  margin-left: 45px;
+}
+
+.primaryBtn {
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px 13px;
+  background-color: rgb(56, 125, 235);
+  color: white;
+  outline: none;
+  border: 1px solid rgb(72, 136, 239);
+  border-radius: 2px;
+  justify-self: right;
+}
+
+.primaryBtn:hover {
+  background-color: rgb(61, 112, 196);
+}
+
+.primaryBtn:focus {
+  outline: 1px solid rgb(77, 144, 254);
+  outline-offset: 2px;
+}
+
+.container__fields {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-left: 45px;
+  display: grid;
+  grid-template-columns: 185px 40%;
+  grid-column-gap: 10px;
+  grid-row-gap: 35px;
+}
+
+.container__fields > div {
+  font-family: Verdana;
+  font-size: 13px;
+  height: fit-content;
+  justify-content: center;
+}
