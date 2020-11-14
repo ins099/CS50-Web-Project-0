@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Google Image Search</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Google Search</a></li>
+      </ul>
+    </nav>
+
+    <div class="img__searchLogo">
+      <img class="img__logo" src="images/google_logo.png" alt="google_logo" />
+      <span class="span_images">images</span>
+    </div>
+    <form action="https://www.google.com/search" autocomplete="off">
+      <div class="sb_container">
+        <img
+          id="search_icon"
+          src="images/search_icon_mg.jpg"
+          alt="search icon magnifying glass"
+        />
+        <input name="tbm" value="isch" type="hidden" />
+        <input class="search__input" type="text" name="q" autofocus />
+      </div>
+
+      <div class="btn_container">
+        <button class="btn" type="submit" value="Google Search">
+          Image Search
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

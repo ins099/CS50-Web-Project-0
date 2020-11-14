@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Advanced Google Search</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="adv_search.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Google Search</a></li>
+      </ul>
+    </nav>
+
+    <h3>Advanced Search</h3>
+
+    <span>
+      Find pages with...
+    </span>
+    <form action="https://google.com/search" autocomplete="off">
+    <div class="container__fields">
+      
+        <div class="label__div">all these words:</div>
+        
+        <input type="text" class="textBox" name="as_q" autofocus />
+        
+        <div class="label__div">this exact word or phrase:</div>
+        
+        <input type="text" class="textBox" name="as_epq" />
+        
+        <div class="label__div">any of these words:</div>
+        
+        <input type="text" class="textBox" name="as_oq" />
+        
+        <div class="label__div">none of these words:</div>
+         
+        <input type="text" class="textBox" name="as_eq" />
+        
+        <div class="label__div">
+          <input name="tbs" class="" type="hidden" value="" />
+        </div>
+        <button class="primaryBtn">Advanced Search</button>
+        
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
